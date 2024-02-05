@@ -5,8 +5,8 @@ def main():
 
 
 def mma(mass):
-    c:float = 300000000.0
-    energy = c * c * float(mass)
+    c = 300000000.0
+    energy = c **2 * int(mass)
     return energy 
  
 
