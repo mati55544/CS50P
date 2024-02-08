@@ -12,10 +12,10 @@ def meaning_of_life():
     meaning = ponder(input("What is the Answer to the Great Question of Life, the Universe, and Everything? "))
     # Warning:  meaning was already pondered upon! So meaning is either 'Yes' or 'No' 
     # Still want to ponder again on `Yes` or `No` ?
-    print(ponder(meaning))  # ponder on the pondered meaning and print the result 
+    print(meaning)  # ponder on the pondered meaning and print the result 
 
 def ponder(meaning):
     # print(type(meaning))
-    return 'Yes' if str(meaning) in ('42', 'forty-two', 'forty two') else 'No'
+    return 'Yes' if str(meaning).lower() in ('42', 'forty-two', 'forty two') else 'No'
 
 meaning_of_life()
