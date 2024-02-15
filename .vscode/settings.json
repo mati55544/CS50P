@@ -1,5 +1,8 @@
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
-    }
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Proto Nerd' ,Consolas, 'Courier New', monospace",
+    "python.analysis.typeCheckingMode": "standard"
 }
