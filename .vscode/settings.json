@@ -4,5 +4,14 @@
     },
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Proto Nerd' ,Consolas, 'Courier New', monospace",
-    "python.analysis.typeCheckingMode": "standard"
+    "python.analysis.typeCheckingMode": "standard",
+    "python.REPL.enableREPLSmartSend": false,
+    "python.analysis.extraPaths": [
+        "./week2"
+    ],
+    "python.testing.pytestArgs": [
+        "week5"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
